@@ -286,31 +286,7 @@ function assignEventToTimeOfThisDate(finalArr, calenderdate, calender_start_hour
             finalArr[dateString(calenderdate)][calender_start_hour]['events'].push(event_details);
         }
   
-        // finalArr[dateString(calenderdate)].forEach((perhrObj) => {
-
-
-
-        //     if (calender_start_hour >= fromHour && calender_start_hour <= toHour && calender_start_hour == perhrObj.Hr) {
-
-
-        //         var found = false;
-        //         perhrObj.events.forEach((perEvent) => {
-
-        //             if (perEvent.id == event_details.id) {
-        //                 found = true;
-
-
-        //             }
-
-        //         });
-        //         if (found == false) {
-        //             perhrObj.events.push(event_details);
-        //         }
-
-        //     }
-
-        // }
-        // );
+      
 
         i++;
         calender_start_hour++;
